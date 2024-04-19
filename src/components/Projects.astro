@@ -1,8 +1,8 @@
 ---
-import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
-import Tailwind from "./icons/Tailwind.astro"
-import Link from "./icons/Link.astro"
+import GitHubIcon from "./icons/GitHub.astro"
+import NextJSIcon from "./icons/NextJS.astro"
+import TailwindIcon from "./icons/Tailwind.astro"
+import LinkIcon from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 import { getLangFromUrl, useTranslations } from "@/i18n/utils"
 
@@ -26,12 +26,12 @@ const TAGS: TagsType = {
   nextjs: {
     name: 'Next.js',
     class: 'bg-[#000] text-white dark:bg-white dark:text-[#000]',
-    icon: NextJS,
+    icon: NextJSIcon,
   },
   tailwindcss: {
     name: 'Tailwind CSS',
     class: 'bg-[#003159] text-white',
-    icon: Tailwind,
+    icon: TailwindIcon,
   },
 };
 
@@ -83,14 +83,14 @@ const PROJECTS:ProjectType[] = t('projects');
       <footer class="flex items-end justify-start mt-4 gap-x-4">
           {github && (
             <LinkButton href={github}>
-              <GitHub class="size-6" />
+              <GitHubIcon class="size-6" />
               Code
               
             </LinkButton>
           )}
           {link && (
             <LinkButton href={link}>
-              <Link class="size-4" />
+              <LinkIcon class="size-4" />
               Preview
             </LinkButton>
           )}
