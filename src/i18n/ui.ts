@@ -25,7 +25,7 @@ export const ui = {
     "exp.title": "Experiencia laboral",
     "projects.title": "Proyectos",
     "about.title": "Sobre mí",
-    "about.bio": `<p>Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <strong>liderando equipos de desarrollo en multinacionales</strong>.</p><p>Algunos de mis éxitos incluyen <strong>colaborar con Mozilla para el desarrollo de las primeras apps en su sistema FirefoxOS</strong>. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.</p><p>Como creador de contenido, <strong>cuento con el canal de habla hispana más visto del mundo en la categoría de <em class="italic">Software & Game Development</em> en Twitch</strong>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad.</p>`,
+    "about.bio": `<strong>Desarrollador Web Full Stack</strong> especializado en React, Node.js y MySQL. Creador de experiencias de usuario intuitivas y soluciones eficientes.`,
     "footer.rights": "Casi todos los derechos reservados",
     exp: [
       {
@@ -38,7 +38,7 @@ export const ui = {
           "Crear aplicaciones web internas con React, ViteJS, GraphQL y Node.js para gestión de alumnos y mejora de procesos.",
           "Configurar y optimizar recursos en AWS para un rendimiento escalable y eficiente.",
           "Diseñar y administrar bases de datos MySQL y crear APIs con Node.js.",
-          "Encargado del hosting y operaciones DevOps."
+          "Encargado del hosting y operaciones DevOps.",
         ],
         // link: "https://www.distinto.lat",
         // linkLabel: "Saber más",
@@ -77,61 +77,59 @@ export const ui = {
     ],
   },
   en: {
-    "layout.title": `Midudev's Portfolio - Web Developer and Programmer with 15 years of experience`,
-    "layout.description":
-      "Hire Midudev to build your web or mobile application. Web Developer and Content Creator. Specialized in creating unique applications.",
+    "layout.title": "José's Portfolio - Fullstack Web Developer and Programmer",
+    "layout.description": "Hire José to create your web or mobile application.",
     "nav.home": "Experience",
     "nav.projects": "Projects",
     "nav.about": "About me",
     "nav.contact": "Contact",
-    "hero.badge": "Open to work",
-    "hero.title": `Hey, I'm midudev`,
+    "hero.badge": "Available for work",
+    "hero.title": "Hey, I'm José",
     "hero.bio":
-      "+15 years of experience. <strong>Software Engineer and Content Creator</strong> from Barcelona, Spain 🇪🇸. Specialized in the development of unique web applications.",
+      "<strong>Full Stack Web Developer</strong> specialized in React, Node.js and MySQL. Creator of intuitive user experiences and efficient solutions.",
     "hero.mail": "Contact me",
     "hero.linkedin": "LinkedIn",
     "hero.github": "GitHub",
-    "exp.title": "Professional Experience",
+    "exp.title": "Work experience",
     "projects.title": "Projects",
     "about.title": "About me",
-    "about.bio": `<p>My name is Miguel Angel, but my friends call me midu. I started programming with an Amstrad when I was 10 years old. Currently, I'm <strong>leading development teams in multinational companies</strong>.</p><p>Some of my successes include <strong>collaborating with Mozilla on the development of the first apps for their FirefoxOS system</strong>. Although it's now gone, it was a significant advancement in the world of web development.</p><p>As a content creator, <strong>I have the most-watched Spanish-speaking channel in the world in the <em class="italic">Software & Game Development</em> category on Twitch</strong>. My goal is to improve employability within the Spanish-speaking community and provide access to quality content.</p>`,
+    "about.bio": `<strong>Full Stack Web Developer</strong> specialized in React, Node.js and MySQL. Creator of intuitive user experiences and efficient solutions.`,
     "footer.rights": "Almost all rights reserved",
     exp: [
       {
-        title: "Content creator",
-        date: "Present...",
-        company: "Twitch",
-        description:
-          "I share about programming and web development on various platforms. Awarded as the best non-English content creator in 2022 and best community in 2023 by GitHub.",
-        link: "https://twitch.tv/midudev",
-        linkLabel: "Know more",
+        title: "Designer and Full Stack Developer",
+        date: "January 2022 - March 2024",
+        company: "Distinto Escuela Disruptiva",
+        description: [
+          "Development and maintenance of the corporate website with focus on UX, SEO and student attraction.",
+          "Implement interactive LMS functions (forums, evaluations) to enrich the educational experience.",
+          "Create internal web applications with React, ViteJS, GraphQL and Node.js for student management and process improvement.",
+          "Configure and optimize resources on AWS for scalable and efficient performance.",
+          "Design and manage MySQL databases and create APIs with Node.js.",
+          "In charge of hosting and DevOps operations.",
+        ],
       },
       {
-        title: "Principal Frontend Engineer",
-        date: "September 2022",
-        company: "Adevinta Spain",
-        description:
-          "Responsible for the platform, components, and utilities for the creation and development of web applications. Achieved a 30% improvement in software delivery. Implementation of continuous integration and deployment measures with A/B testing across more than 15 teams.",
+        title: "Graphic Designer",
+        date: "January 2022 - December 2022",
+        company: "Distinto Escuela Disruptiva",
+        description: [
+          "Attractive and consistent visual design for the corporate website.",
+          "Creation of promotional graphic material for social networks (flyers, banners, posts).",
+          "Handling of social networks and community management to increase online presence.",
+          "Design of brochures and printed materials for promotions and events.",
+          "Effective communication with the team to maintain coherence in design and projects.",
+        ],
       },
     ],
     projects: [
       {
-        title: "SVGL - A beautiful library with SVG logos",
+        title: "D/STINTO - We train your mind to do different things",
         description:
-          "Library of SVG logos from the most popular brands. +10k visits per month. +2K SVGs downloaded. Created from scratch with Next.js, React, and Tailwind CSS.",
-        link: "https://svgl.vercel.app/",
-        github: "https://github.com/pheralb/svgl",
-        image: "/projects/svgl.webp",
-        tags: ["nextjs", "tailwindcss"],
-      },
-      {
-        title:
-          "AdventJS - Programming challenges with JavaScript and TypeScript",
-        description:
-          "Free platform with programming challenges. Over 1 million visits in a month. +50K challenges completed. Created from scratch with Next.js, React, and Tailwind CSS.",
-        link: "https://adventjs.dev",
-        image: "/projects/adventjs.webp",
-        tags: ["nextjs", "tailwindcss"],
+          "Corporate website for the continuing education company DISTINTO. Developed with Next.js, React and Tailwind CSS for optimal performance. Includes registration forms and optimized sales processes to convert visitors into students.",
+        link: "https://www.distinto.lat",
+        image: "/projects/distinto-corporate.webp",
+        tags: ["nextjs", "react", "tailwindcss"],
       },
     ],
   },
