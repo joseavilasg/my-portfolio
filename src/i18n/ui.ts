@@ -16,7 +16,7 @@ export const ui = {
     "nav.about": "Sobre mí",
     "nav.contact": "Contacto",
     "hero.badge": "Disponible para trabajar",
-    "hero.title": "Hey, soy José",
+    "hero.title": "Hola, soy José",
     "hero.bio":
       "<strong>Desarrollador Web Full Stack</strong> especializado en React, Node.js y MySQL. Creador de experiencias de usuario intuitivas y soluciones eficientes.",
     "hero.mail": "Contáctame",
@@ -84,7 +84,7 @@ export const ui = {
     "nav.about": "About me",
     "nav.contact": "Contact",
     "hero.badge": "Available for work",
-    "hero.title": "Hey, I'm José",
+    "hero.title": "Hi, I'm José",
     "hero.bio":
       "<strong>Full Stack Web Developer</strong> specialized in React, Node.js and MySQL. Creator of intuitive user experiences and efficient solutions.",
     "hero.mail": "Contact me",
