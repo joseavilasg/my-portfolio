@@ -29,40 +29,51 @@ export const ui = {
     "footer.rights": "Casi todos los derechos reservados",
     exp: [
       {
-        title: "Creador de contenido",
-        date: "Actualmente...",
-        company: "Twitch",
-        description:
-          "Divulgo sobre programación y desarrollo web en diferentes plataformas. Galardonado como mejor creador de contenido de habla no-inglesa en 2022 y mejor comunidad en 2023 por GitHub.",
-        link: "https://twitch.tv/midudev",
-        linkLabel: "Saber más",
+        title: "Diseñador y Desarrollador Full Stack",
+        date: "Enero 2022 - Marzo 2024",
+        company: "Distinto Escuela Disruptiva",
+        description: [
+          "Desarrollo y mantenimiento del sitio web corporativo con foco en UX, SEO y atracción de estudiantes.",
+          "Implementar funciones interactivas de LMS (foros, evaluaciones) para enriquecer la experiencia educativa.",
+          "Crear aplicaciones web internas con React, ViteJS, GraphQL y Node.js para gestión de alumnos y mejora de procesos.",
+          "Configurar y optimizar recursos en AWS para un rendimiento escalable y eficiente.",
+          "Diseñar y administrar bases de datos MySQL y crear APIs con Node.js.",
+          "Encargado del hosting y operaciones DevOps."
+        ],
+        // link: "https://www.distinto.lat",
+        // linkLabel: "Saber más",
       },
       {
-        title: "Principal Frontend Engineer",
-        date: "Septiembre 2022",
-        company: "Adevinta Spain",
-        description:
-          "Responsable de la plataforma, componentes y utilidades para la creación y desarrollo de aplicaciones web. Mejora de un 30% en la entrega de software. Implantación de medidas de integración continua y despliegue con A/B testing en más de 15 equipos.",
+        title: "Diseñador Gráfico",
+        date: "Enero 2022 - Diciembre 2022",
+        company: "Distinto Escuela Disruptiva",
+        description: [
+          "Diseño visual atractivo y coherente para el sitio web corporativo.",
+          "Creación de material gráfico promocional para redes sociales (flyers, banners, publicaciones).",
+          "Manejo de redes sociales y community management para aumentar presencia online.",
+          "Diseño de brochures y materiales impresos para promociones y eventos.",
+          "Comunicación efectiva con el equipo para mantener coherencia en diseño y proyectos.",
+        ],
       },
     ],
     projects: [
       {
-        title: "SVGL - A beautiful library with SVG logos",
+        title: "D/STINTO - Entrenamos tu mente para hacer cosas diferentes",
         description:
-          "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-        link: "https://svgl.vercel.app/",
-        github: "https://github.com/pheralb/svgl",
-        image: "/projects/svgl.webp",
-        tags: ["nextjs", "tailwindcss"],
+          "Sitio web corporativo para la empresa de educación continua DISTINTO. Desarrollado con Next.js, React y Tailwind CSS para un rendimiento óptimo. Incluye formularios de inscripción y procesos de venta optimizados para convertir visitantes en estudiantes.",
+        link: "https://www.distinto.lat",
+        image: "/projects/distinto-corporate.webp",
+        tags: ["nextjs", "react", "tailwindcss"],
       },
-      {
-        title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-        description:
-          "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-        link: "https://adventjs.dev",
-        image: "/projects/adventjs.webp",
-        tags: ["nextjs", "tailwindcss"],
-      },
+      // {
+      //   title: "SVGL - A beautiful library with SVG logos",
+      //   description:
+      //   "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
+      //   link: "https://svgl.vercel.app/",
+      //   github: "https://github.com/pheralb/svgl",
+      //   image: "/projects/adventjs.webp",
+      //   tags: ["nextjs", "tailwindcss"],
+      // },
     ],
   },
   en: {
