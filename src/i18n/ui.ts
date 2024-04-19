@@ -26,7 +26,7 @@ export const ui = {
     "projects.title": "Proyectos",
     "about.title": "Sobre mí",
     "about.bio": `<strong>Desarrollador Web Full Stack</strong> especializado en React, Node.js y MySQL. Creador de experiencias de usuario intuitivas y soluciones eficientes.`,
-    "footer.rights": "Casi todos los derechos reservados",
+    "footer.rights": "José Avila SG. Sitio web creado con ❤️ gracias a <a href=\"https://midu.dev/\" target=\"_blank\" rel=\"noreferrer noopener\" class=\"hover:underline\">midudev</a>.",
     exp: [
       {
         title: "Diseñador y Desarrollador Full Stack",
@@ -94,7 +94,7 @@ export const ui = {
     "projects.title": "Projects",
     "about.title": "About me",
     "about.bio": `<strong>Full Stack Web Developer</strong> specialized in React, Node.js and MySQL. Creator of intuitive user experiences and efficient solutions.`,
-    "footer.rights": "Almost all rights reserved",
+    "footer.rights": "José Avila SG. Website created with ❤️ thanks to <a href=\"https://midu.dev/\" target=\"_blank\" rel=\"noreferrer noopener\" class=\"hover:underline\">midudev</a>.",
     exp: [
       {
         title: "Designer and Full Stack Developer",
