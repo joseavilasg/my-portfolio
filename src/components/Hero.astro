@@ -1,7 +1,8 @@
 ---
-const personalImageAlt = "Miguel Ángel"
+const personalImageAlt = "José Avila"
 import Badge from "@/components/Badge.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
+import GitHubIcon from "@/components/icons/GitHub.astro"
 import MailIcon from "@/components/icons/Mail.astro"
 import SocialPill from "@/components/SocialPill.astro"
 import { getLangFromUrl, useTranslations } from "@/i18n/utils"
@@ -15,7 +16,7 @@ const t = useTranslations(lang);
   <div class="flex gap-4 mb-4">
     <img
       class="rounded-full shadow-lg size-16"
-      src="/midudev.webp"
+      src="/joseavilasg.webp"
       alt={personalImageAlt}
     />
     <a
@@ -45,6 +46,10 @@ const t = useTranslations(lang);
     <SocialPill href={SOCIALS_URL.LINKEDIN}>
       <LinkedInIcon class="size-4" />
       {t('hero.linkedin')}
+    </SocialPill>
+    <SocialPill href={SOCIALS_URL.GITHUB}>
+      <GitHubIcon class="size-4" />
+      {t('hero.github')}
     </SocialPill>
   </nav>
 </div>

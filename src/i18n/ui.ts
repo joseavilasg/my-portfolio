@@ -8,19 +8,20 @@ export const defaultLang = "es";
 export const ui = {
   es: {
     "layout.title":
-      "Porfolio de midudev - Desarrollador y Programador Web con 15 años de experiencia",
+      "Portafolio de José - Desarrollador y Programador Web Fullstack",
     "layout.description":
-      "Contrata a midudev para crear tu aplicación web o móvil. Desarrollador Web y Creador de Contenido. Especializado en crear aplicaciones únicas.",
+      "Contrata a José para crear tu aplicación web o móvil.",
     "nav.home": "Experiencia",
     "nav.projects": "Proyectos",
     "nav.about": "Sobre mí",
     "nav.contact": "Contacto",
     "hero.badge": "Disponible para trabajar",
-    "hero.title": "Hey, soy midudev",
+    "hero.title": "Hey, soy José",
     "hero.bio":
-      "+15 años de experiencia. <strong>Ingeniero de Software y Creador de Contenido sobre Programación</strong> de Barcelona, España 🇪🇸. Especializado en el desarrollo de aplicaciones web únicas.",
+      "<strong>Desarrollador Web Full Stack</strong> especializado en React, Node.js y MySQL. Creador de experiencias de usuario intuitivas y soluciones eficientes.",
     "hero.mail": "Contáctame",
     "hero.linkedin": "LinkedIn",
+    "hero.github": "GitHub",
     "exp.title": "Experiencia laboral",
     "projects.title": "Proyectos",
     "about.title": "Sobre mí",
@@ -78,6 +79,7 @@ export const ui = {
       "+15 years of experience. <strong>Software Engineer and Content Creator</strong> from Barcelona, Spain 🇪🇸. Specialized in the development of unique web applications.",
     "hero.mail": "Contact me",
     "hero.linkedin": "LinkedIn",
+    "hero.github": "GitHub",
     "exp.title": "Professional Experience",
     "projects.title": "Projects",
     "about.title": "About me",
